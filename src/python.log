@@ -1,0 +1,682 @@
+2012-02-17 22:48:42,123 - root - INFO - inside init method
+2012-02-17 22:48:42,123 - root - DEBUG - init: keyspace read is : True
+2012-02-17 22:48:51,474 - root - INFO - inside init method
+2012-02-17 22:48:51,475 - root - DEBUG - init: keyspace read is : True
+2012-02-17 22:50:13,177 - root - INFO - inside init method
+2012-02-17 22:50:13,178 - root - DEBUG - init: keyspace read is : appscale
+2012-02-17 22:54:00,258 - root - INFO - inside init method
+2012-02-17 22:54:00,259 - root - DEBUG - init: keyspace read is : appscale
+2012-02-17 22:59:18,573 - root - INFO - inside init method
+2012-02-17 22:59:18,573 - root - DEBUG - init: keyspace, host, port read is : appscale 9160 9160
+2012-02-17 22:59:18,573 - root - DEBUG - connecting to cassandra
+2012-02-17 22:59:18,574 - pycassa.pool - INFO - Connection 136815764 (9160:9160) in None (id = 3074693996) failed: Could not connect to 9160:9160
+2012-02-17 22:59:18,574 - pycassa.pool - INFO - Connection 136815764 (9160:9160) in None (id = 3074693996) failed: Could not connect to 9160:9160
+2012-02-17 22:59:18,574 - root - ERROR - Error in init method : Details - An attempt was made to connect to each of the servers twice, but none of the attempts succeeded. The last failure was TTransportException: Could not connect to 9160:9160
+2012-02-17 22:59:18,574 - root - INFO - Exiting init method
+2012-02-17 23:00:02,632 - root - INFO - inside init method
+2012-02-17 23:00:02,632 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-17 23:00:02,632 - root - DEBUG - connecting to cassandra
+2012-02-17 23:48:20,163 - root - INFO - inside init method
+2012-02-17 23:48:20,193 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-17 23:48:20,195 - root - DEBUG - connecting to cassandra
+2012-02-17 23:48:20,304 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:48:46,293 - root - INFO - inside init method
+2012-02-18 09:48:46,293 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:48:46,293 - root - DEBUG - connecting to cassandra
+2012-02-18 09:48:46,298 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:50:23,726 - root - INFO - inside init method
+2012-02-18 09:50:23,726 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:50:23,726 - root - DEBUG - connecting to cassandra
+2012-02-18 09:50:23,732 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:55:02,107 - root - INFO - inside init method
+2012-02-18 09:55:02,108 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:55:02,108 - root - DEBUG - connecting to cassandra
+2012-02-18 09:55:02,109 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:56:06,353 - root - INFO - inside init method
+2012-02-18 09:56:06,354 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:56:06,354 - root - DEBUG - connecting to cassandra
+2012-02-18 09:56:06,355 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:56:41,102 - root - INFO - inside init method
+2012-02-18 09:56:41,102 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:56:41,102 - root - DEBUG - connecting to cassandra
+2012-02-18 09:56:41,103 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:58:10,910 - root - INFO - inside init method
+2012-02-18 09:58:10,910 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:58:10,910 - root - DEBUG - connecting to cassandra
+2012-02-18 09:58:10,912 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:58:17,773 - root - INFO - inside init method
+2012-02-18 09:58:17,773 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:58:17,774 - root - DEBUG - connecting to cassandra
+2012-02-18 09:58:17,775 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:58:26,580 - root - INFO - inside init method
+2012-02-18 09:58:26,582 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:58:26,582 - root - DEBUG - connecting to cassandra
+2012-02-18 09:58:26,584 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:58:36,283 - root - INFO - inside init method
+2012-02-18 09:58:36,283 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:58:36,283 - root - DEBUG - connecting to cassandra
+2012-02-18 09:58:36,284 - root - DEBUG - connection to cassandra successful
+2012-02-18 09:59:29,625 - root - INFO - inside init method
+2012-02-18 09:59:29,625 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 09:59:29,626 - root - DEBUG - connecting to cassandra
+2012-02-18 09:59:29,627 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:02:54,007 - root - INFO - inside init method
+2012-02-18 10:02:54,008 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:02:54,008 - root - DEBUG - connecting to cassandra
+2012-02-18 10:02:54,010 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:03:11,563 - root - INFO - inside init method
+2012-02-18 10:03:11,563 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:03:11,563 - root - DEBUG - connecting to cassandra
+2012-02-18 10:03:11,564 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:03:29,572 - root - INFO - inside init method
+2012-02-18 10:03:29,573 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:03:29,573 - root - DEBUG - connecting to cassandra
+2012-02-18 10:03:29,574 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:04:00,380 - root - INFO - inside init method
+2012-02-18 10:04:00,380 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:04:00,380 - root - DEBUG - connecting to cassandra
+2012-02-18 10:04:00,382 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:04:29,197 - root - INFO - inside init method
+2012-02-18 10:04:29,198 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:04:29,198 - root - DEBUG - connecting to cassandra
+2012-02-18 10:04:29,199 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:05:10,831 - root - INFO - inside init method
+2012-02-18 10:05:10,832 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:05:10,832 - root - DEBUG - connecting to cassandra
+2012-02-18 10:05:10,834 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:05:33,050 - root - INFO - inside init method
+2012-02-18 10:05:33,050 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:05:33,051 - root - DEBUG - connecting to cassandra
+2012-02-18 10:05:33,052 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:10:31,974 - root - INFO - inside init method
+2012-02-18 10:10:31,974 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:10:31,974 - root - DEBUG - connecting to cassandra
+2012-02-18 10:10:31,975 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:11:00,670 - root - INFO - inside init method
+2012-02-18 10:11:00,671 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:11:00,671 - root - DEBUG - connecting to cassandra
+2012-02-18 10:11:00,673 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:12:44,098 - root - INFO - inside init method
+2012-02-18 10:12:44,098 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:12:44,098 - root - DEBUG - connecting to cassandra
+2012-02-18 10:12:44,099 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:14:21,964 - root - INFO - inside init method
+2012-02-18 10:14:21,964 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:14:21,964 - root - DEBUG - connecting to cassandra
+2012-02-18 10:14:21,965 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:22:58,962 - root - INFO - inside init method
+2012-02-18 10:22:58,963 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:22:58,963 - root - DEBUG - connecting to cassandra
+2012-02-18 10:22:58,964 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:23:03,148 - pycassa.pool - INFO - Connection 136815764 (6) in None (id = 3074754668) failed: Could not connect to 6:9160
+2012-02-18 10:23:03,224 - pycassa.pool - INFO - Connection 136815764 (l) in None (id = 3074754668) failed: Could not connect to l:9160
+2012-02-18 10:23:03,232 - pycassa.pool - INFO - Connection 136815764 (l) in None (id = 3074754668) failed: Could not connect to l:9160
+2012-02-18 10:23:03,313 - pycassa.pool - INFO - Connection 136815764 (a) in None (id = 3074754668) failed: Could not connect to a:9160
+2012-02-18 10:23:03,364 - pycassa.pool - INFO - Connection 136815764 (o) in None (id = 3074754668) failed: Could not connect to o:9160
+2012-02-18 10:23:03,365 - pycassa.pool - INFO - Connection 136815764 (9) in None (id = 3074754668) failed: Could not connect to 9:9160
+2012-02-18 10:23:03,496 - pycassa.pool - INFO - Connection 136815764 (t) in None (id = 3074754668) failed: Could not connect to t:9160
+2012-02-18 10:23:03,505 - pycassa.pool - INFO - Connection 136815764 (o) in None (id = 3074754668) failed: Could not connect to o:9160
+2012-02-18 10:25:05,855 - root - INFO - inside init method
+2012-02-18 10:25:05,858 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:25:05,858 - root - DEBUG - connecting to cassandra
+2012-02-18 10:25:05,859 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:29:08,510 - root - INFO - inside init method
+2012-02-18 10:29:08,511 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:29:08,511 - root - DEBUG - connecting to cassandra
+2012-02-18 10:29:08,529 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:29:08,529 - root - INFO - Inside fake populate method
+2012-02-18 10:29:08,529 - root - DEBUG - Total number of entries to be added : 25000
+2012-02-18 10:31:09,941 - root - INFO - inside init method
+2012-02-18 10:31:09,941 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:31:09,942 - root - DEBUG - connecting to cassandra
+2012-02-18 10:31:09,944 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:31:09,944 - root - INFO - Inside fake populate method
+2012-02-18 10:31:09,945 - root - DEBUG - Total number of entries to be added : 25000
+2012-02-18 10:31:50,770 - root - INFO - inside init method
+2012-02-18 10:31:50,770 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:31:50,776 - root - DEBUG - connecting to cassandra
+2012-02-18 10:31:50,777 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:31:50,778 - root - INFO - Inside fake populate method
+2012-02-18 10:31:50,778 - root - DEBUG - Total number of entries to be added : 25000
+2012-02-18 10:31:50,778 - root - DEBUG - Method started at : 2012-02-18 10:31:50.778295
+2012-02-18 10:32:17,607 - root - INFO - inside init method
+2012-02-18 10:32:17,607 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:32:17,607 - root - DEBUG - connecting to cassandra
+2012-02-18 10:32:17,608 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:32:17,608 - root - INFO - Inside fake populate method
+2012-02-18 10:32:17,608 - root - DEBUG - Total number of entries to be added : 25000
+2012-02-18 10:32:17,609 - root - DEBUG - Method started at : 2012-02-18 10:32:17.609018
+2012-02-18 10:33:02,008 - pycassa.pool - INFO - Connection 3072709484 (localhost:9160) in None (id = 3072726764) failed: timed out
+2012-02-18 10:33:03,060 - pycassa.pool - INFO - Connection 136815764 (localhost:9160) in None (id = 3072726764) failed: timed out
+2012-02-18 10:33:03,561 - pycassa.pool - INFO - Connection 136815764 (localhost:9160) in None (id = 3072726764) failed: timed out
+2012-02-18 10:34:27,418 - root - INFO - inside init method
+2012-02-18 10:34:27,418 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:34:27,419 - root - DEBUG - connecting to cassandra
+2012-02-18 10:34:27,436 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:34:27,436 - root - INFO - Inside fake populate method
+2012-02-18 10:34:27,437 - root - DEBUG - Total number of entries to be added : 10
+2012-02-18 10:34:27,438 - root - DEBUG - Method started at : 2012-02-18 10:34:27.438362
+2012-02-18 10:34:59,264 - pycassa.pool - INFO - None (id = 3073978636) was disposed
+2012-02-18 10:34:59,424 - pycassa.pool - INFO - None (id = 3073980972) was disposed
+2012-02-18 10:34:59,441 - pycassa.pool - INFO - None (id = 3073982092) was disposed
+2012-02-18 10:34:59,455 - pycassa.pool - INFO - None (id = 3073139596) was disposed
+2012-02-18 10:34:59,619 - pycassa.pool - INFO - None (id = 3073140428) was disposed
+2012-02-18 10:34:59,894 - pycassa.pool - INFO - None (id = 3073142668) was disposed
+2012-02-18 10:34:59,950 - pycassa.pool - INFO - None (id = 3073183948) was disposed
+2012-02-18 10:35:00,042 - pycassa.pool - INFO - None (id = 3073185964) was disposed
+2012-02-18 10:35:00,112 - pycassa.pool - INFO - None (id = 3073184620) was disposed
+2012-02-18 10:35:00,207 - pycassa.pool - INFO - None (id = 3073142124) was disposed
+2012-02-18 10:35:00,294 - pycassa.pool - INFO - None (id = 3073138892) was disposed
+2012-02-18 10:35:00,365 - pycassa.pool - INFO - None (id = 3073138828) was disposed
+2012-02-18 10:35:00,466 - pycassa.pool - INFO - None (id = 3073980172) was disposed
+2012-02-18 10:35:00,595 - pycassa.pool - INFO - None (id = 3073269932) was disposed
+2012-02-18 10:35:00,663 - pycassa.pool - INFO - None (id = 3073273676) was disposed
+2012-02-18 10:35:00,767 - pycassa.pool - INFO - None (id = 3073328108) was disposed
+2012-02-18 10:35:00,866 - pycassa.pool - INFO - None (id = 3073961356) was disposed
+2012-02-18 10:35:00,984 - pycassa.pool - INFO - None (id = 3073328940) was disposed
+2012-02-18 10:35:01,079 - pycassa.pool - INFO - None (id = 3073327564) was disposed
+2012-02-18 10:35:01,175 - pycassa.pool - INFO - None (id = 3073923212) was disposed
+2012-02-18 10:35:01,221 - pycassa.pool - INFO - None (id = 3073270508) was disposed
+2012-02-18 10:35:01,283 - pycassa.pool - INFO - None (id = 3073273356) was disposed
+2012-02-18 10:35:01,328 - pycassa.pool - INFO - None (id = 3073139308) was disposed
+2012-02-18 10:35:01,409 - pycassa.pool - INFO - None (id = 3073140940) was disposed
+2012-02-18 10:35:01,464 - pycassa.pool - INFO - None (id = 3073184972) was disposed
+2012-02-18 10:35:01,516 - pycassa.pool - INFO - None (id = 3073187212) was disposed
+2012-02-18 10:35:01,560 - pycassa.pool - INFO - None (id = 3073183916) was disposed
+2012-02-18 10:35:01,604 - pycassa.pool - INFO - None (id = 3073183948) was disposed
+2012-02-18 10:35:01,654 - pycassa.pool - INFO - None (id = 3073139468) was disposed
+2012-02-18 10:35:01,678 - pycassa.pool - INFO - None (id = 3073140140) was disposed
+2012-02-18 10:35:01,719 - pycassa.pool - INFO - None (id = 3073430572) was disposed
+2012-02-18 10:35:01,758 - pycassa.pool - INFO - None (id = 3073979916) was disposed
+2012-02-18 10:35:01,811 - pycassa.pool - INFO - None (id = 3073269836) was disposed
+2012-02-18 10:35:01,935 - pycassa.pool - INFO - None (id = 3073980012) was disposed
+2012-02-18 10:35:02,035 - pycassa.pool - INFO - None (id = 3072998124) was disposed
+2012-02-18 10:35:02,089 - pycassa.pool - INFO - None (id = 3073923212) was disposed
+2012-02-18 10:35:02,136 - pycassa.pool - INFO - None (id = 3072997004) was disposed
+2012-02-18 10:35:02,190 - pycassa.pool - INFO - None (id = 3072995468) was disposed
+2012-02-18 10:35:02,233 - pycassa.pool - INFO - None (id = 3073979852) was disposed
+2012-02-18 10:35:02,286 - pycassa.pool - INFO - None (id = 3073980300) was disposed
+2012-02-18 10:35:02,389 - pycassa.pool - INFO - None (id = 3073431116) was disposed
+2012-02-18 10:35:02,452 - pycassa.pool - INFO - None (id = 3073329676) was disposed
+2012-02-18 10:35:02,534 - pycassa.pool - INFO - None (id = 3073329548) was disposed
+2012-02-18 10:35:02,586 - pycassa.pool - INFO - None (id = 3073269804) was disposed
+2012-02-18 10:35:02,660 - pycassa.pool - INFO - None (id = 3073139148) was disposed
+2012-02-18 10:35:02,703 - pycassa.pool - INFO - None (id = 3073142220) was disposed
+2012-02-18 10:35:02,746 - pycassa.pool - INFO - None (id = 3073139468) was disposed
+2012-02-18 10:35:02,798 - pycassa.pool - INFO - None (id = 3073273676) was disposed
+2012-02-18 10:35:02,863 - pycassa.pool - INFO - None (id = 3073273452) was disposed
+2012-02-18 10:35:03,139 - pycassa.pool - INFO - None (id = 3073961356) was disposed
+2012-02-18 10:35:03,161 - pycassa.pool - INFO - None (id = 3073271980) was disposed
+2012-02-18 10:35:03,199 - pycassa.pool - INFO - None (id = 3073270124) was disposed
+2012-02-18 10:35:03,242 - pycassa.pool - INFO - None (id = 3073979052) was disposed
+2012-02-18 10:35:03,315 - pycassa.pool - INFO - None (id = 3073980140) was disposed
+2012-02-18 10:35:03,362 - pycassa.pool - INFO - None (id = 3072995596) was disposed
+2012-02-18 10:35:03,421 - pycassa.pool - INFO - None (id = 3072997580) was disposed
+2012-02-18 10:35:03,533 - pycassa.pool - INFO - None (id = 3072998156) was disposed
+2012-02-18 10:35:03,647 - pycassa.pool - INFO - None (id = 3072995468) was disposed
+2012-02-18 10:35:03,671 - pycassa.pool - INFO - None (id = 3073978828) was disposed
+2012-02-18 10:35:03,738 - pycassa.pool - INFO - None (id = 3073979404) was disposed
+2012-02-18 10:35:03,796 - pycassa.pool - INFO - None (id = 3073961868) was disposed
+2012-02-18 10:35:03,858 - pycassa.pool - INFO - None (id = 3072996812) was disposed
+2012-02-18 10:35:03,941 - pycassa.pool - INFO - None (id = 3072997196) was disposed
+2012-02-18 10:35:04,004 - pycassa.pool - INFO - None (id = 3073138764) was disposed
+2012-02-18 10:35:04,089 - pycassa.pool - INFO - None (id = 3073272460) was disposed
+2012-02-18 10:35:04,850 - pycassa.pool - INFO - Connection 3073961484 (localhost:9160) in None (id = 3073271564) failed: timed out
+2012-02-18 10:35:05,535 - pycassa.pool - INFO - None (id = 3073271564) was disposed
+2012-02-18 10:35:05,617 - pycassa.pool - INFO - None (id = 3073327628) was disposed
+2012-02-18 10:35:05,635 - pycassa.pool - INFO - None (id = 3073432716) was disposed
+2012-02-18 10:35:05,678 - pycassa.pool - INFO - None (id = 3073432108) was disposed
+2012-02-18 10:35:05,755 - pycassa.pool - INFO - None (id = 3073979020) was disposed
+2012-02-18 10:35:05,780 - pycassa.pool - INFO - None (id = 3072998572) was disposed
+2012-02-18 10:35:05,878 - pycassa.pool - INFO - None (id = 3072999052) was disposed
+2012-02-18 10:35:05,934 - pycassa.pool - INFO - None (id = 3072968908) was disposed
+2012-02-18 10:35:06,024 - pycassa.pool - INFO - None (id = 3072970732) was disposed
+2012-02-18 10:35:06,169 - pycassa.pool - INFO - None (id = 3072968556) was disposed
+2012-02-18 10:35:06,246 - pycassa.pool - INFO - None (id = 3073980908) was disposed
+2012-02-18 10:35:06,275 - pycassa.pool - INFO - None (id = 3072968332) was disposed
+2012-02-18 10:35:06,365 - pycassa.pool - INFO - None (id = 3073980620) was disposed
+2012-02-18 10:35:06,446 - pycassa.pool - INFO - None (id = 3073961484) was disposed
+2012-02-18 10:35:06,668 - pycassa.pool - INFO - None (id = 3073186924) was disposed
+2012-02-18 10:35:06,690 - pycassa.pool - INFO - None (id = 3073330668) was disposed
+2012-02-18 10:35:06,731 - pycassa.pool - INFO - None (id = 3073245836) was disposed
+2012-02-18 10:35:06,794 - pycassa.pool - INFO - None (id = 3073246092) was disposed
+2012-02-18 10:35:06,833 - pycassa.pool - INFO - None (id = 3073270828) was disposed
+2012-02-18 10:35:06,879 - pycassa.pool - INFO - None (id = 3073141324) was disposed
+2012-02-18 10:35:07,050 - pycassa.pool - INFO - None (id = 3073140076) was disposed
+2012-02-18 10:35:07,075 - pycassa.pool - INFO - None (id = 3073961356) was disposed
+2012-02-18 10:35:07,135 - pycassa.pool - INFO - None (id = 3073330316) was disposed
+2012-02-18 10:35:07,172 - pycassa.pool - INFO - None (id = 3073184812) was disposed
+2012-02-18 10:35:07,219 - pycassa.pool - INFO - None (id = 3073982156) was disposed
+2012-02-18 10:35:07,265 - pycassa.pool - INFO - None (id = 3072998284) was disposed
+2012-02-18 10:35:07,298 - pycassa.pool - INFO - None (id = 3073980748) was disposed
+2012-02-18 10:35:07,344 - pycassa.pool - INFO - None (id = 3073978732) was disposed
+2012-02-18 10:35:07,389 - pycassa.pool - INFO - None (id = 3073980300) was disposed
+2012-02-18 10:35:07,448 - pycassa.pool - INFO - None (id = 3073186540) was disposed
+2012-02-18 10:35:07,499 - pycassa.pool - INFO - None (id = 3072968492) was disposed
+2012-02-18 10:35:07,546 - pycassa.pool - INFO - None (id = 3073330508) was disposed
+2012-02-18 10:35:07,591 - pycassa.pool - INFO - None (id = 3073431308) was disposed
+2012-02-18 10:35:07,636 - pycassa.pool - INFO - None (id = 3073432332) was disposed
+2012-02-18 10:35:07,680 - pycassa.pool - INFO - None (id = 3073273164) was disposed
+2012-02-18 10:35:07,726 - pycassa.pool - INFO - None (id = 3073268812) was disposed
+2012-02-18 10:35:07,748 - pycassa.pool - INFO - None (id = 3073268236) was disposed
+2012-02-18 10:35:07,790 - pycassa.pool - INFO - None (id = 3073268748) was disposed
+2012-02-18 10:35:07,812 - pycassa.pool - INFO - None (id = 3073247244) was disposed
+2012-02-18 10:35:07,853 - pycassa.pool - INFO - None (id = 3073268428) was disposed
+2012-02-18 10:35:07,898 - pycassa.pool - INFO - None (id = 3073272332) was disposed
+2012-02-18 10:35:07,932 - pycassa.pool - INFO - None (id = 3073433004) was disposed
+2012-02-18 10:35:07,979 - pycassa.pool - INFO - None (id = 3073961356) was disposed
+2012-02-18 10:35:08,028 - pycassa.pool - INFO - None (id = 3073431820) was disposed
+2012-02-18 10:35:08,075 - pycassa.pool - INFO - None (id = 3072999020) was disposed
+2012-02-18 10:35:08,111 - pycassa.pool - INFO - None (id = 3072997068) was disposed
+2012-02-18 10:35:08,169 - pycassa.pool - INFO - None (id = 3072969708) was disposed
+2012-02-18 10:35:08,209 - pycassa.pool - INFO - None (id = 3072997548) was disposed
+2012-02-18 10:35:08,975 - pycassa.pool - INFO - Connection 3073271020 (localhost:9160) in None (id = 3073186636) failed: timed out
+2012-02-18 10:35:09,506 - pycassa.pool - INFO - Connection 136815764 (localhost:9160) in None (id = 3073186636) failed: timed out
+2012-02-18 10:35:10,004 - pycassa.pool - INFO - None (id = 3073186636) was disposed
+2012-02-18 10:35:10,021 - pycassa.pool - INFO - None (id = 3073431724) was disposed
+2012-02-18 10:35:10,068 - pycassa.pool - INFO - None (id = 3073430700) was disposed
+2012-02-18 10:35:10,111 - pycassa.pool - INFO - None (id = 3073272812) was disposed
+2012-02-18 10:35:10,193 - pycassa.pool - INFO - None (id = 3073246092) was disposed
+2012-02-18 10:35:10,211 - pycassa.pool - INFO - None (id = 3073267724) was disposed
+2012-02-18 10:35:10,240 - pycassa.pool - INFO - None (id = 3073268204) was disposed
+2012-02-18 10:35:10,273 - pycassa.pool - INFO - None (id = 3073300748) was disposed
+2012-02-18 10:35:10,305 - pycassa.pool - INFO - None (id = 3073142124) was disposed
+2012-02-18 10:35:10,405 - pycassa.pool - INFO - None (id = 3073247020) was disposed
+2012-02-18 10:35:10,472 - pycassa.pool - INFO - None (id = 3073271916) was disposed
+2012-02-18 10:35:10,708 - pycassa.pool - INFO - None (id = 3073430316) was disposed
+2012-02-18 10:35:13,914 - pycassa.pool - INFO - None (id = 3073186924) was disposed
+2012-02-18 10:35:13,940 - pycassa.pool - INFO - None (id = 3073270508) was disposed
+2012-02-18 10:35:13,988 - pycassa.pool - INFO - None (id = 3073332940) was disposed
+2012-02-18 10:35:14,049 - pycassa.pool - INFO - None (id = 3073333100) was disposed
+2012-02-18 10:35:14,093 - pycassa.pool - INFO - None (id = 3073334220) was disposed
+2012-02-18 10:35:14,134 - pycassa.pool - INFO - None (id = 3073981868) was disposed
+2012-02-18 10:35:14,181 - pycassa.pool - INFO - None (id = 3073186252) was disposed
+2012-02-18 10:35:14,203 - pycassa.pool - INFO - None (id = 3072969964) was disposed
+2012-02-18 10:35:14,225 - pycassa.pool - INFO - None (id = 3072969772) was disposed
+2012-02-18 10:35:14,239 - pycassa.pool - INFO - None (id = 3073329580) was disposed
+2012-02-18 10:35:14,258 - pycassa.pool - INFO - None (id = 3073270892) was disposed
+2012-02-18 10:35:14,285 - pycassa.pool - INFO - None (id = 3073269292) was disposed
+2012-02-18 10:35:14,333 - pycassa.pool - INFO - None (id = 3073139148) was disposed
+2012-02-18 10:35:14,379 - pycassa.pool - INFO - None (id = 3073247916) was disposed
+2012-02-18 10:35:14,405 - pycassa.pool - INFO - None (id = 3073327756) was disposed
+2012-02-18 10:35:14,428 - pycassa.pool - INFO - None (id = 3073271660) was disposed
+2012-02-18 10:35:14,441 - pycassa.pool - INFO - None (id = 3072968908) was disposed
+2012-02-18 10:35:14,456 - pycassa.pool - INFO - None (id = 3072968428) was disposed
+2012-02-18 10:35:14,476 - pycassa.pool - INFO - None (id = 3073979724) was disposed
+2012-02-18 10:35:14,491 - pycassa.pool - INFO - None (id = 3073980428) was disposed
+2012-02-18 10:35:14,509 - pycassa.pool - INFO - None (id = 3073331372) was disposed
+2012-02-18 10:35:14,531 - pycassa.pool - INFO - None (id = 3073961356) was disposed
+2012-02-18 10:35:14,544 - pycassa.pool - INFO - None (id = 3073332908) was disposed
+2012-02-18 10:35:14,558 - pycassa.pool - INFO - None (id = 3073331756) was disposed
+2012-02-18 10:35:14,585 - pycassa.pool - INFO - None (id = 3073300748) was disposed
+2012-02-18 10:35:14,599 - pycassa.pool - INFO - None (id = 3073302444) was disposed
+2012-02-18 10:35:14,613 - pycassa.pool - INFO - None (id = 3073332396) was disposed
+2012-02-18 10:35:14,634 - pycassa.pool - INFO - None (id = 3073982380) was disposed
+2012-02-18 10:35:14,649 - pycassa.pool - INFO - None (id = 3073268524) was disposed
+2012-02-18 10:35:14,664 - pycassa.pool - INFO - None (id = 3073265996) was disposed
+2012-02-18 10:35:14,685 - pycassa.pool - INFO - None (id = 3073432876) was disposed
+2012-02-18 10:35:14,699 - pycassa.pool - INFO - None (id = 3073432844) was disposed
+2012-02-18 10:35:14,713 - pycassa.pool - INFO - None (id = 3073430028) was disposed
+2012-02-18 10:35:14,735 - pycassa.pool - INFO - None (id = 3073268716) was disposed
+2012-02-18 10:35:14,749 - pycassa.pool - INFO - None (id = 3073267628) was disposed
+2012-02-18 10:35:14,771 - pycassa.pool - INFO - None (id = 3073265836) was disposed
+2012-02-18 10:35:14,784 - pycassa.pool - INFO - None (id = 3073979532) was disposed
+2012-02-18 10:35:14,800 - pycassa.pool - INFO - None (id = 3073961196) was disposed
+2012-02-18 10:35:14,811 - pycassa.pool - INFO - None (id = 3073299020) was disposed
+2012-02-18 10:35:14,830 - pycassa.pool - INFO - None (id = 3073332524) was disposed
+2012-02-18 10:35:14,841 - pycassa.pool - INFO - None (id = 3073332844) was disposed
+2012-02-18 10:35:14,852 - pycassa.pool - INFO - None (id = 3073329772) was disposed
+2012-02-18 10:35:14,875 - pycassa.pool - INFO - None (id = 3073328524) was disposed
+2012-02-18 10:35:14,890 - pycassa.pool - INFO - None (id = 3073332620) was disposed
+2012-02-18 10:35:14,902 - pycassa.pool - INFO - None (id = 3073332268) was disposed
+2012-02-18 10:35:14,913 - pycassa.pool - INFO - None (id = 3073246604) was disposed
+2012-02-18 10:35:14,932 - pycassa.pool - INFO - None (id = 3073245612) was disposed
+2012-02-18 10:35:14,944 - pycassa.pool - INFO - None (id = 3073298828) was disposed
+2012-02-18 10:35:14,956 - pycassa.pool - INFO - None (id = 3073334924) was disposed
+2012-02-18 10:35:14,978 - pycassa.pool - INFO - None (id = 3073333932) was disposed
+2012-02-18 10:35:14,991 - pycassa.pool - INFO - None (id = 3073266604) was disposed
+2012-02-18 10:35:15,004 - pycassa.pool - INFO - None (id = 3073430380) was disposed
+2012-02-18 10:35:15,025 - pycassa.pool - INFO - None (id = 3073431116) was disposed
+2012-02-18 10:35:15,037 - pycassa.pool - INFO - None (id = 3073978764) was disposed
+2012-02-18 10:35:15,049 - pycassa.pool - INFO - None (id = 3073266892) was disposed
+2012-02-18 10:35:15,062 - pycassa.pool - INFO - None (id = 3073268364) was disposed
+2012-02-18 10:35:15,082 - pycassa.pool - INFO - None (id = 3073302284) was disposed
+2012-02-18 10:35:15,095 - pycassa.pool - INFO - None (id = 3073301164) was disposed
+2012-02-18 10:35:15,108 - pycassa.pool - INFO - None (id = 3073248716) was disposed
+2012-02-18 10:35:15,137 - pycassa.pool - INFO - None (id = 3073961196) was disposed
+2012-02-18 10:35:15,154 - pycassa.pool - INFO - None (id = 3073335276) was disposed
+2012-02-18 10:35:15,178 - pycassa.pool - INFO - None (id = 3073333548) was disposed
+2012-02-18 10:35:15,190 - pycassa.pool - INFO - None (id = 3073331980) was disposed
+2012-02-18 10:35:15,204 - pycassa.pool - INFO - None (id = 3072969324) was disposed
+2012-02-18 10:35:15,216 - pycassa.pool - INFO - None (id = 3072969196) was disposed
+2012-02-18 10:35:15,231 - pycassa.pool - INFO - None (id = 3072967564) was disposed
+2012-02-18 10:35:15,247 - pycassa.pool - INFO - None (id = 3073246124) was disposed
+2012-02-18 10:35:15,262 - pycassa.pool - INFO - None (id = 3073302476) was disposed
+2012-02-18 10:35:15,280 - pycassa.pool - INFO - None (id = 3073269548) was disposed
+2012-02-18 10:35:15,296 - pycassa.pool - INFO - None (id = 3073978860) was disposed
+2012-02-18 10:35:15,342 - pycassa.pool - INFO - None (id = 3073268940) was disposed
+2012-02-18 10:35:15,354 - pycassa.pool - INFO - None (id = 3072999052) was disposed
+2012-02-18 10:35:15,366 - pycassa.pool - INFO - None (id = 3072998092) was disposed
+2012-02-18 10:35:15,388 - pycassa.pool - INFO - None (id = 3073982380) was disposed
+2012-02-18 10:35:15,402 - pycassa.pool - INFO - None (id = 3073431180) was disposed
+2012-02-18 10:35:15,413 - pycassa.pool - INFO - None (id = 3073268364) was disposed
+2012-02-18 10:35:15,452 - pycassa.pool - INFO - None (id = 3073267788) was disposed
+2012-02-18 10:35:15,534 - pycassa.pool - INFO - None (id = 3073248044) was disposed
+2012-02-18 10:35:15,584 - pycassa.pool - INFO - None (id = 3073328204) was disposed
+2012-02-18 10:35:15,631 - pycassa.pool - INFO - None (id = 3072970444) was disposed
+2012-02-18 10:35:15,688 - pycassa.pool - INFO - None (id = 3073331980) was disposed
+2012-02-18 10:35:15,737 - pycassa.pool - INFO - None (id = 3073270060) was disposed
+2012-02-18 10:35:15,763 - pycassa.pool - INFO - None (id = 3073270156) was disposed
+2012-02-18 10:35:15,810 - pycassa.pool - INFO - None (id = 3073273484) was disposed
+2012-02-18 10:35:15,850 - pycassa.pool - INFO - None (id = 3073328396) was disposed
+2012-02-18 10:35:15,897 - pycassa.pool - INFO - None (id = 3072968012) was disposed
+2012-02-18 10:35:17,522 - pycassa.pool - INFO - Connection 3073328300 (localhost:9160) in None (id = 3072969804) failed: timed out
+2012-02-18 10:35:18,140 - pycassa.pool - INFO - Connection 136815764 (localhost:9160) in None (id = 3072969804) failed: timed out
+2012-02-18 10:35:18,642 - pycassa.pool - INFO - Connection 136815764 (localhost:9160) in None (id = 3072969804) failed: timed out
+2012-02-18 10:37:00,308 - root - INFO - inside init method
+2012-02-18 10:37:00,308 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:37:00,308 - root - DEBUG - connecting to cassandra
+2012-02-18 10:37:00,364 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:37:00,364 - root - INFO - Inside fake populate method
+2012-02-18 10:37:00,364 - root - DEBUG - Total number of entries to be added : 10
+2012-02-18 10:37:00,365 - root - DEBUG - Method started at : 2012-02-18 10:37:00.365070
+2012-02-18 10:37:35,063 - pycassa.pool - INFO - Connection 3073256748 (localhost:9160) in None (id = 3073256972) failed: timed out
+2012-02-18 10:37:35,955 - pycassa.pool - INFO - Connection 3072475532 (localhost:9160) in None (id = 3073256492) failed: timed out
+2012-02-18 10:37:44,894 - root - DEBUG - Method ended at : 2012-02-18 10:37:44.894744
+2012-02-18 10:37:45,139 - root - INFO - Exiting fakepopulate method
+2012-02-18 10:43:16,804 - root - INFO - inside init method
+2012-02-18 10:43:16,804 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:43:16,805 - root - DEBUG - connecting to cassandra
+2012-02-18 10:43:16,854 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:43:16,854 - root - INFO - Inside fake populate method
+2012-02-18 10:43:16,855 - root - DEBUG - Method started at : 2012-02-18 10:43:16.855097
+2012-02-18 10:47:59,125 - root - DEBUG - Method ended at : 2012-02-18 10:47:59.115485
+2012-02-18 10:47:59,155 - root - DEBUG - Total Entries added : 373000
+2012-02-18 10:47:59,155 - root - INFO - Exiting fakepopulate method
+2012-02-18 10:56:54,393 - root - INFO - inside init method
+2012-02-18 10:56:54,393 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 10:56:54,393 - root - DEBUG - connecting to cassandra
+2012-02-18 10:56:54,432 - root - DEBUG - connection to cassandra successful
+2012-02-18 10:56:54,433 - root - INFO - Inside fake populate method
+2012-02-18 10:56:54,487 - root - DEBUG - Method started at : 2012-02-18 10:56:54.487133
+2012-02-18 11:01:13,954 - root - DEBUG - Method ended at : 2012-02-18 11:01:13.953218
+2012-02-18 11:01:13,957 - root - DEBUG - Total Entries added : 373000
+2012-02-18 11:01:13,957 - root - INFO - Exiting fakepopulate method
+2012-02-18 16:54:24,366 - root - INFO - inside init method
+2012-02-18 16:54:24,374 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 16:54:24,374 - root - DEBUG - connecting to cassandra
+2012-02-18 16:54:24,433 - root - DEBUG - connection to cassandra successful
+2012-02-18 16:54:24,433 - root - INFO - Inside fake populate method
+2012-02-18 16:54:24,434 - root - DEBUG - Method started at : 2012-02-18 16:54:24.434242
+2012-02-18 16:54:31,712 - pycassa.pool - INFO - Connection 3074593484 (localhost:9160) in None (id = 3074576044) failed: timed out
+2012-02-18 16:55:22,701 - pycassa.pool - INFO - Connection 3073904428 (localhost:9160) in None (id = 162067020) failed: timed out
+2012-02-18 16:58:57,384 - root - DEBUG - Method ended at : 2012-02-18 16:58:57.384750
+2012-02-18 16:58:57,420 - root - DEBUG - Total Entries added : 373000
+2012-02-18 16:58:57,420 - root - INFO - Exiting fakepopulate method
+2012-02-18 17:31:05,293 - root - INFO - inside init method
+2012-02-18 17:31:05,301 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:31:05,302 - root - DEBUG - connecting to cassandra
+2012-02-18 17:31:05,462 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:31:05,464 - root - INFO - inside export data method
+2012-02-18 17:33:31,540 - root - INFO - inside init method
+2012-02-18 17:33:31,540 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:33:31,540 - root - DEBUG - connecting to cassandra
+2012-02-18 17:33:31,576 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:33:31,576 - root - INFO - inside export data method
+2012-02-18 17:33:53,683 - root - INFO - inside init method
+2012-02-18 17:33:53,683 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:33:53,683 - root - DEBUG - connecting to cassandra
+2012-02-18 17:33:53,684 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:33:53,684 - root - INFO - inside export data method
+2012-02-18 17:34:41,577 - root - INFO - inside init method
+2012-02-18 17:34:41,577 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:34:41,577 - root - DEBUG - connecting to cassandra
+2012-02-18 17:34:41,578 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:34:41,578 - root - INFO - inside export data method
+2012-02-18 17:36:17,197 - root - INFO - inside init method
+2012-02-18 17:36:17,198 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:36:17,198 - root - DEBUG - connecting to cassandra
+2012-02-18 17:36:17,200 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:36:17,200 - root - INFO - inside export data method
+2012-02-18 17:36:40,601 - root - INFO - inside init method
+2012-02-18 17:36:40,601 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:36:40,602 - root - DEBUG - connecting to cassandra
+2012-02-18 17:36:40,615 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:36:40,615 - root - INFO - inside export data method
+2012-02-18 17:36:54,939 - root - INFO - inside init method
+2012-02-18 17:36:54,939 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:36:54,951 - root - DEBUG - connecting to cassandra
+2012-02-18 17:36:54,953 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:36:54,953 - root - INFO - inside export data method
+2012-02-18 17:43:22,705 - root - INFO - inside init method
+2012-02-18 17:43:22,706 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:43:22,706 - root - DEBUG - connecting to cassandra
+2012-02-18 17:43:22,715 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:43:22,715 - root - INFO - inside export data method
+2012-02-18 17:46:43,212 - root - INFO - inside init method
+2012-02-18 17:46:43,212 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:46:43,212 - root - DEBUG - connecting to cassandra
+2012-02-18 17:46:43,213 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:46:43,213 - root - INFO - inside export data method
+2012-02-18 17:46:58,292 - root - INFO - inside init method
+2012-02-18 17:46:58,292 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:46:58,292 - root - DEBUG - connecting to cassandra
+2012-02-18 17:46:58,293 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:46:58,293 - root - INFO - inside export data method
+2012-02-18 17:47:18,155 - root - INFO - inside init method
+2012-02-18 17:47:18,158 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:47:18,158 - root - DEBUG - connecting to cassandra
+2012-02-18 17:47:18,160 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:47:18,160 - root - INFO - inside export data method
+2012-02-18 17:47:59,406 - root - INFO - inside init method
+2012-02-18 17:47:59,407 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:47:59,407 - root - DEBUG - connecting to cassandra
+2012-02-18 17:47:59,408 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:47:59,408 - root - INFO - inside export data method
+2012-02-18 17:48:47,603 - root - INFO - inside init method
+2012-02-18 17:48:47,603 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:48:47,603 - root - DEBUG - connecting to cassandra
+2012-02-18 17:48:47,605 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:48:47,606 - root - INFO - inside export data method
+2012-02-18 17:49:00,790 - root - INFO - inside init method
+2012-02-18 17:49:00,790 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:49:00,790 - root - DEBUG - connecting to cassandra
+2012-02-18 17:49:00,791 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:49:00,791 - root - INFO - inside export data method
+2012-02-18 17:50:37,344 - root - INFO - inside init method
+2012-02-18 17:50:37,345 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:50:37,345 - root - DEBUG - connecting to cassandra
+2012-02-18 17:50:37,347 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:50:37,347 - root - INFO - inside export data method
+2012-02-18 17:51:04,068 - root - INFO - inside init method
+2012-02-18 17:51:04,068 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:51:04,068 - root - DEBUG - connecting to cassandra
+2012-02-18 17:51:04,069 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:51:04,069 - root - INFO - inside export data method
+2012-02-18 17:51:23,881 - root - INFO - inside init method
+2012-02-18 17:51:23,881 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:51:23,881 - root - DEBUG - connecting to cassandra
+2012-02-18 17:51:23,882 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:51:23,882 - root - INFO - inside export data method
+2012-02-18 17:52:46,580 - root - INFO - inside init method
+2012-02-18 17:52:46,581 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:52:46,581 - root - DEBUG - connecting to cassandra
+2012-02-18 17:52:46,582 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:52:46,582 - root - INFO - inside export data method
+2012-02-18 17:53:04,916 - root - INFO - inside init method
+2012-02-18 17:53:04,916 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:53:04,916 - root - DEBUG - connecting to cassandra
+2012-02-18 17:53:04,917 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:53:04,917 - root - INFO - inside export data method
+2012-02-18 17:56:22,637 - root - INFO - inside init method
+2012-02-18 17:56:22,638 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:56:22,638 - root - DEBUG - connecting to cassandra
+2012-02-18 17:56:22,638 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:56:22,639 - root - INFO - inside export data method
+2012-02-18 17:56:47,267 - root - INFO - inside init method
+2012-02-18 17:56:47,268 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:56:47,268 - root - DEBUG - connecting to cassandra
+2012-02-18 17:56:47,270 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:56:47,270 - root - INFO - inside export data method
+2012-02-18 17:57:15,838 - root - INFO - inside init method
+2012-02-18 17:57:15,838 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:57:15,838 - root - DEBUG - connecting to cassandra
+2012-02-18 17:57:15,839 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:57:15,839 - root - INFO - inside export data method
+2012-02-18 17:57:37,205 - root - INFO - inside init method
+2012-02-18 17:57:37,205 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 17:57:37,205 - root - DEBUG - connecting to cassandra
+2012-02-18 17:57:37,206 - root - DEBUG - connection to cassandra successful
+2012-02-18 17:57:37,206 - root - INFO - inside export data method
+2012-02-18 18:00:40,889 - root - INFO - inside init method
+2012-02-18 18:00:40,890 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:00:40,890 - root - DEBUG - connecting to cassandra
+2012-02-18 18:00:40,891 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:00:40,891 - root - INFO - inside export data method
+2012-02-18 18:00:59,672 - pycassa.pool - INFO - Connection 203425740 (localhost:9160) in None (id = 145298412) failed: timed out
+2012-02-18 18:01:00,600 - pycassa.pool - INFO - Connection 203424588 (localhost:9160) in None (id = 145298412) failed: timed out
+2012-02-18 18:01:12,199 - pycassa.pool - INFO - Connection 233853484 (localhost:9160) in None (id = 185831372) failed: timed out
+2012-02-18 18:01:22,967 - pycassa.pool - INFO - Connection 233854252 (localhost:9160) in None (id = 185831372) failed: timed out
+2012-02-18 18:01:34,544 - pycassa.pool - INFO - Connection 262609132 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:36,873 - pycassa.pool - INFO - Connection 262610060 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:38,119 - pycassa.pool - INFO - Connection 273287308 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:51,597 - pycassa.pool - INFO - Connection 262609292 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:52,622 - pycassa.pool - INFO - Connection 265805356 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:53,146 - pycassa.pool - INFO - Connection 265805356 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:53,699 - pycassa.pool - INFO - Connection 265805356 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:55,290 - pycassa.pool - INFO - Connection 298891244 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:56,671 - pycassa.pool - INFO - Connection 301925868 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:57,445 - pycassa.pool - INFO - Connection 301925868 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:58,339 - pycassa.pool - INFO - Connection 297934060 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:58,868 - pycassa.pool - INFO - Connection 297934060 (localhost:9160) in None (id = 203426540) failed: timed out
+2012-02-18 18:01:59,623 - pycassa.pool - INFO - Connection 304636620 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:00,153 - pycassa.pool - INFO - Connection 304636620 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:00,703 - pycassa.pool - INFO - Connection 304636620 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:01,805 - pycassa.pool - INFO - Connection 304636460 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:02,331 - pycassa.pool - INFO - Connection 304636460 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:03,427 - pycassa.pool - INFO - Connection 308113388 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:03,957 - pycassa.pool - INFO - Connection 308113388 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:04,612 - pycassa.pool - INFO - Connection 266015916 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:06,652 - pycassa.pool - INFO - Connection 266015660 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:11,113 - pycassa.pool - INFO - Connection 308199820 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:12,213 - pycassa.pool - INFO - Connection 310644716 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:13,945 - pycassa.pool - INFO - Connection 317804524 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:15,106 - pycassa.pool - INFO - Connection 315518956 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:15,876 - pycassa.pool - INFO - Connection 304637772 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:16,983 - pycassa.pool - INFO - Connection 319930348 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:17,521 - pycassa.pool - INFO - Connection 319930348 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:18,082 - pycassa.pool - INFO - Connection 319930348 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:21,452 - pycassa.pool - INFO - Connection 314578316 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:22,128 - pycassa.pool - INFO - Connection 320948460 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:22,660 - pycassa.pool - INFO - Connection 320948460 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:23,676 - pycassa.pool - INFO - Connection 336175084 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:24,203 - pycassa.pool - INFO - Connection 336175084 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:25,222 - pycassa.pool - INFO - Connection 333187148 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:26,139 - pycassa.pool - INFO - Connection 322122892 (localhost:9160) in None (id = 262610828) failed: timed out
+2012-02-18 18:02:52,308 - pycassa.pool - INFO - Connection 387448524 (localhost:9160) in None (id = 348122220) failed: timed out
+2012-02-18 18:02:54,102 - pycassa.pool - INFO - Connection 387447756 (localhost:9160) in None (id = 348122220) failed: timed out
+2012-02-18 18:02:54,629 - pycassa.pool - INFO - Connection 387447756 (localhost:9160) in None (id = 348122220) failed: timed out
+2012-02-18 18:02:55,172 - pycassa.pool - INFO - Connection 387447756 (localhost:9160) in None (id = 348122220) failed: timed out
+2012-02-18 18:02:58,563 - pycassa.pool - INFO - Connection 431315884 (localhost:9160) in None (id = 389970284) failed: timed out
+2012-02-18 18:03:35,568 - pycassa.pool - INFO - Connection 448416236 (localhost:9160) in None (id = 431482444) failed: timed out
+2012-02-18 18:03:36,092 - pycassa.pool - INFO - Connection 448416236 (localhost:9160) in None (id = 431482444) failed: timed out
+2012-02-18 18:03:36,635 - pycassa.pool - INFO - Connection 448416236 (localhost:9160) in None (id = 431482444) failed: timed out
+2012-02-18 18:03:37,624 - pycassa.pool - INFO - Connection 469590412 (localhost:9160) in None (id = 431482444) failed: timed out
+2012-02-18 18:03:42,845 - pycassa.pool - INFO - Connection 476912748 (localhost:9160) in None (id = 448417388) failed: timed out
+2012-02-18 18:03:43,770 - pycassa.pool - INFO - Connection 476912748 (localhost:9160) in None (id = 448417388) failed: timed out
+2012-02-18 18:03:44,320 - pycassa.pool - INFO - Connection 476912748 (localhost:9160) in None (id = 448417388) failed: timed out
+2012-02-18 18:03:44,902 - pycassa.pool - INFO - Connection 476912748 (localhost:9160) in None (id = 448417388) failed: timed out
+2012-02-18 18:03:45,571 - pycassa.pool - INFO - Connection 476912748 (localhost:9160) in None (id = 448417388) failed: timed out
+2012-02-18 18:03:46,411 - pycassa.pool - INFO - Connection 476912748 (localhost:9160) in None (id = 448417388) failed: timed out
+2012-02-18 18:04:36,821 - root - INFO - inside init method
+2012-02-18 18:04:36,822 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:04:36,822 - root - DEBUG - connecting to cassandra
+2012-02-18 18:04:36,845 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:04:36,845 - root - INFO - inside export data method
+2012-02-18 18:04:47,384 - pycassa.pool - INFO - Connection 212741612 (localhost:9160) in None (id = 165827564) failed: timed out
+2012-02-18 18:04:47,907 - pycassa.pool - INFO - Connection 136815764 (localhost:9160) in None (id = 165827564) failed: timed out
+2012-02-18 18:05:15,076 - pycassa.pool - INFO - Connection 366518348 (localhost:9160) in None (id = 285882540) failed: timed out
+2012-02-18 18:05:23,642 - pycassa.pool - INFO - Connection 408664108 (localhost:9160) in None (id = 366083276) failed: timed out
+2012-02-18 18:05:24,165 - pycassa.pool - INFO - Connection 408664108 (localhost:9160) in None (id = 366083276) failed: timed out
+2012-02-18 18:05:24,708 - pycassa.pool - INFO - Connection 408664108 (localhost:9160) in None (id = 366083276) failed: timed out
+2012-02-18 18:05:38,551 - pycassa.pool - INFO - Connection 450530124 (localhost:9160) in None (id = 409731724) failed: timed out
+2012-02-18 18:05:49,838 - pycassa.pool - INFO - Connection 498945740 (localhost:9160) in None (id = 467558188) failed: timed out
+2012-02-18 18:05:52,808 - pycassa.pool - INFO - Connection 509640684 (localhost:9160) in None (id = 467558188) failed: timed out
+2012-02-18 18:06:01,779 - pycassa.pool - INFO - Connection 517864332 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:03,773 - pycassa.pool - INFO - Connection 525930476 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:04,295 - pycassa.pool - INFO - Connection 525930476 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:05,840 - pycassa.pool - INFO - Connection 517865100 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:06,366 - pycassa.pool - INFO - Connection 517865100 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:10,387 - pycassa.pool - INFO - Connection 517863948 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:10,918 - pycassa.pool - INFO - Connection 517863948 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:11,463 - pycassa.pool - INFO - Connection 517863948 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:12,110 - pycassa.pool - INFO - Connection 517863948 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:12,892 - pycassa.pool - INFO - Connection 545637612 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:13,557 - pycassa.pool - INFO - Connection 545637612 (localhost:9160) in None (id = 470315852) failed: timed out
+2012-02-18 18:06:18,453 - pycassa.pool - INFO - Connection 554851948 (localhost:9160) in None (id = 551641420) failed: timed out
+2012-02-18 18:06:18,977 - pycassa.pool - INFO - Connection 136815764 (localhost:9160) in None (id = 551641420) failed: timed out
+2012-02-18 18:06:19,480 - pycassa.pool - INFO - Connection 136815764 (localhost:9160) in None (id = 551641420) failed: timed out
+2012-02-18 18:35:39,233 - root - INFO - inside init method
+2012-02-18 18:35:39,240 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:35:39,240 - root - DEBUG - connecting to cassandra
+2012-02-18 18:35:39,266 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:35:39,267 - root - INFO - inside export data method
+2012-02-18 18:36:01,118 - root - INFO - inside init method
+2012-02-18 18:36:01,119 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:36:01,119 - root - DEBUG - connecting to cassandra
+2012-02-18 18:36:01,120 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:36:01,120 - root - INFO - inside export data method
+2012-02-18 18:36:50,542 - root - INFO - inside init method
+2012-02-18 18:36:50,542 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:36:50,542 - root - DEBUG - connecting to cassandra
+2012-02-18 18:36:50,543 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:36:50,543 - root - INFO - inside export data method
+2012-02-18 18:38:11,537 - pycassa.pool - INFO - Connection 169432908 (localhost:9160) in None (id = 171140972) failed: timed out
+2012-02-18 18:38:12,464 - pycassa.pool - INFO - Connection 173995436 (localhost:9160) in None (id = 171140972) failed: timed out
+2012-02-18 18:38:13,355 - pycassa.pool - INFO - Connection 173995436 (localhost:9160) in None (id = 171140972) failed: timed out
+2012-02-18 18:38:36,105 - pycassa.pool - INFO - Connection 171691180 (localhost:9160) in None (id = 172890348) failed: timed out
+2012-02-18 18:38:37,134 - pycassa.pool - INFO - Connection 171778444 (localhost:9160) in None (id = 172890348) failed: timed out
+2012-02-18 18:38:56,874 - pycassa.pool - INFO - Connection 170904780 (localhost:9160) in None (id = 173127820) failed: timed out
+2012-02-18 18:38:57,403 - pycassa.pool - INFO - Connection 170904780 (localhost:9160) in None (id = 173127820) failed: timed out
+2012-02-18 18:39:17,336 - pycassa.pool - INFO - Connection 173214540 (localhost:9160) in None (id = 171118988) failed: timed out
+2012-02-18 18:40:53,187 - root - INFO - inside init method
+2012-02-18 18:40:53,187 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:40:53,187 - root - DEBUG - connecting to cassandra
+2012-02-18 18:40:53,203 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:40:53,203 - root - INFO - inside export data method
+2012-02-18 18:41:09,695 - pycassa.pool - INFO - Connection 167866092 (localhost:9160) in None (id = 168642220) failed: timed out
+2012-02-18 18:41:54,085 - root - INFO - inside init method
+2012-02-18 18:41:54,087 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:41:54,087 - root - DEBUG - connecting to cassandra
+2012-02-18 18:41:54,088 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:41:54,088 - root - INFO - inside export data method
+2012-02-18 18:45:43,573 - root - INFO - inside init method
+2012-02-18 18:45:43,573 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:45:43,574 - root - DEBUG - connecting to cassandra
+2012-02-18 18:45:43,587 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:45:43,587 - root - INFO - inside export data method
+2012-02-18 18:46:00,688 - root - INFO - inside init method
+2012-02-18 18:46:00,688 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:46:00,688 - root - DEBUG - connecting to cassandra
+2012-02-18 18:46:00,689 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:46:00,690 - root - INFO - inside export data method
+2012-02-18 18:46:09,534 - root - INFO - inside init method
+2012-02-18 18:46:09,534 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:46:09,534 - root - DEBUG - connecting to cassandra
+2012-02-18 18:46:09,536 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:46:09,536 - root - INFO - inside export data method
+2012-02-18 18:46:23,509 - root - INFO - inside init method
+2012-02-18 18:46:23,509 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:46:23,509 - root - DEBUG - connecting to cassandra
+2012-02-18 18:46:23,510 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:46:23,510 - root - INFO - inside export data method
+2012-02-18 18:49:13,377 - root - INFO - inside init method
+2012-02-18 18:49:13,377 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:49:13,378 - root - DEBUG - connecting to cassandra
+2012-02-18 18:49:13,379 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:49:13,379 - root - INFO - inside export data method
+2012-02-18 18:50:34,696 - root - INFO - inside init method
+2012-02-18 18:50:34,696 - root - DEBUG - init: keyspace, host, port read is : appscale localhost 9160
+2012-02-18 18:50:34,696 - root - DEBUG - connecting to cassandra
+2012-02-18 18:50:34,697 - root - DEBUG - connection to cassandra successful
+2012-02-18 18:50:34,697 - root - INFO - inside export data method
